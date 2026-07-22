@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BuildWise AI | AI Product Consultant</title>
+
+    <meta name="description"
+        content="Validate startup ideas, discover your MVP, and uncover blind spots through natural AI conversations.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <!-- Background Glow -->
+    <div class="background">
+    <div class="background-glow"></div>
+</div>
+
+    <!-- Header -->
+
+    <header class="header">
+
+       <a href="/" class="logo">
+
+            <span class="logo-dot"></span>
+
+            BuildWise AI
+
+        </a>
+<a href="https://github.com/ZarishJaveria"
+   class="github-link"
+   target="_blank"
+   rel="noopener noreferrer">
+    GitHub
+</a>
+
+    </header>
+
+    <!-- Main -->
+
+    <main class="app-layout">
+
+        <!-- Left Side -->
+
+        <section class="left-panel">
+
+            <div class="content">
+
+                <p class="eyebrow">
+                    AI PRODUCT CONSULTANT
+                </p>
+
+                <h1>
+
+                    Talk through
+                    <br>
+                    your startup idea.
+
+                </h1>
+
+                <p class="description">
+
+                    Validate your idea, discover your MVP,
+                    and uncover blind spots through a natural AI conversation.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Right Side -->
+
+        <section class="workspace">
+
+            <!-- Workspace Header -->
+
+            <div class="workspace-header">
+
+                <div>
+
+                    <h2>Build Session</h2>
+
+                    <p>Start talking whenever you're ready.</p>
+
+                </div>
+
+            </div>
+
+            <!-- Suggestions -->
+
+            <div id="suggestions" class="suggestions">
+
+                <button class="chip">
+                    Should I build this idea?
+                </button>
+
+                <button class="chip">
+                    Help me define my MVP
+                </button>
+
+                <button class="chip">
+                    Who is my target customer?
+                </button>
+
+                <button class="chip">
+                    Validate my startup
+                </button>
+
+            </div>
+
+            <!-- Conversation -->
+
+            <div id="conversationArea" class="conversation">
+
+                <div class="empty-state">
+
+                    <div class="empty-circle">
+
+                        <!-- Icon styled with CSS -->
+
+                    </div>
+
+                    <h3>
+
+                        Your conversation will appear here
+
+                    </h3>
+
+                    <p>
+
+                        Start a session to begin chatting with BuildWise AI.
+
+                    </p>
+
+                </div>
+
+                <div id="messages"></div>
+
+            </div>
+
+            <!-- Footer -->
+
+            <footer class="workspace-footer">
+
+                <div class="status">
+
+                    <span class="status-dot"></span>
+
+                    <span id="statusText">
+
+                        Ready
+
+                    </span>
+
+                </div>
+
+                <div class="actions">
+
+                    <button id="startCallBtn"
+                        class="primary-btn"
+                        aria-label="Start AI conversation">
+
+                        Start Session
+
+                    </button>
+
+                    <button id="stopCallBtn"
+                        class="secondary-btn"
+                        aria-label="End AI conversation">
+
+                        End Session
+
+                    </button>
+
+                </div>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+  
+<script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
